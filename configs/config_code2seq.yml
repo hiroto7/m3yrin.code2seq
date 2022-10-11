@@ -1,13 +1,13 @@
 data:
   home: ../data
-  dict: /java-small/java-small.dict.c2s
-  train: /java-small/train
-  valid: /java-small/val
-  test: /java-small/test
+  dict: /java-med/java-med.dict.c2s
+  train: /java-med/train
+  valid: /java-med/val
+  test: /java-med/test
 
 
 training:
-  batch_size: 256
+  batch_size: 32
   num_epochs: 50
   lr: 0.001
   teacher_forcing_rate: 0.4
