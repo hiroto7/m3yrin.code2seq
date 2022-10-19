@@ -1,9 +1,9 @@
 data:
-  home: ../data
-  dict: /java-med/java-med.dict.c2s
-  train: /java-med/train
-  valid: /java-med/val
-  test: /java-med/test
+  home: ../../..
+  dict: /code2seq/data/path_contexts/path_contexts.dict.c2s
+  train: /m3yrin/code2seq/data/train
+  valid: /m3yrin/code2seq/data/val
+  test: /m3yrin/code2seq/data/test
 
 
 training:
