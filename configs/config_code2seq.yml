@@ -2,7 +2,7 @@ data:
   home: ../../..
   dict: /code2seq/data/path_contexts/path_contexts.dict.c2s
   train: /m3yrin/code2seq/data/train
-  valid: /m3yrin/code2seq/data/val
+  valid: /m3yrin/code2seq/data/val1
   test: /m3yrin/code2seq/data/test
 
 
