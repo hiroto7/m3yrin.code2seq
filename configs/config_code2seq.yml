@@ -5,9 +5,8 @@ data:
   valid: /m3yrin/code2seq/data/val1
   test: /m3yrin/code2seq/data/test
 
-
 training:
-  batch_size: 32
+  batch_size: 8
   num_epochs: 50
   lr: 0.001
   teacher_forcing_rate: 0.4
@@ -18,16 +17,15 @@ training:
   save_name: /model.pth
   warm_up: 1
   patience: 2
-  
-  
+
 model:
-  token_size: 128
+  token_size: 512
   hidden_size: 64
   num_layers: 1
   bidirectional: True
   rnn_dropout: 0.5
   embeddings_dropout: 0.3
-  num_k : 200
+  num_k: 200
 
 etc:
   info_prefix: code2seq
