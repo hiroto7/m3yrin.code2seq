@@ -6,7 +6,7 @@ data:
   test: /m3yrin/code2seq/data/test
 
 training:
-  batch_size: 4
+  batch_size: 16
   num_epochs: 50
   lr: 0.001
   teacher_forcing_rate: 0.4
@@ -19,7 +19,7 @@ training:
   patience: 2
 
 model:
-  token_size: 512
+  token_size: 398
   hidden_size: 64
   num_layers: 1
   bidirectional: True
